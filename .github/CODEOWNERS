@@ -1,0 +1,24 @@
+# Замените TRACK_A и TRACK_B на GitHub-логины владельцев треков (см. docs/PLAN.md).
+
+# Общее — ревьюит второй участник
+*                              @TRACK_A @TRACK_B
+/src/shared/                   @TRACK_A @TRACK_B
+/src/app/                      @TRACK_A @TRACK_B
+/docs/                         @TRACK_A @TRACK_B
+
+# Трек A — записи и время, графики и дашборды
+/src/features/logbook/         @TRACK_A
+/src/features/dashboard/       @TRACK_A
+/src/features/work-schedule/   @TRACK_A
+/src/features/notifications/   @TRACK_A
+
+# Трек B — движок таблиц, медицина, деньги, канбан
+/src/features/handbook/        @TRACK_B
+/src/features/multiselect/     @TRACK_B
+/src/features/dental/          @TRACK_B
+/src/features/billing/         @TRACK_B
+/src/features/kanban/          @TRACK_B
+
+# Навигация (меню из WAGetNav, типы пунктов → движки) — общее
+/src/features/navigation/      @TRACK_A @TRACK_B
+/scripts/                      @TRACK_A @TRACK_B

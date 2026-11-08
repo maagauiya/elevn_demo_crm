@@ -1,0 +1,12 @@
+# Не ставим версии, опубликованные менее 3 дней назад (защита от захваченных пакетов).
+minimumReleaseAge: 4320
+# postinstall-скрипты запрещены всем, кроме перечисленных.
+onlyBuiltDependencies:
+  - esbuild
+  - msw
+# Фиксируем точные версии при pnpm add (без ^ и ~).
+saveExact: true
+engineStrict: true
+overrides:
+  # GHSA-g3hv-75wg-m249: ESLint 10 тянет minimatch@10. Убрать, когда ESLint перейдёт на 11.
+  'minimatch@>=7 <11.0.1': 11.0.4

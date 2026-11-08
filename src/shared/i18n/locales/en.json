@@ -1,0 +1,36 @@
+{
+  "appName": "Elevn CRM",
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "retry": "Retry",
+    "logout": "Log out",
+    "openMenu": "Open menu"
+  },
+  "states": {
+    "loading": "Loading…",
+    "empty": "Nothing here yet",
+    "error": "Failed to load data"
+  },
+  "placeholder": {
+    "title": "Work in progress",
+    "description": "This screen is being ported from the old frontend. Owner: track {{track}}."
+  },
+  "errors": {
+    "notFoundTitle": "Page not found",
+    "notFoundDescription": "Check the address or go back home.",
+    "unknownTitle": "Something went wrong",
+    "unknownDescription": "Try reloading the page. If it keeps happening, contact support.",
+    "toHome": "Go home",
+    "required": "Required"
+  },
+  "language": "Language",
+  "status": {
+    "confirmed": "Confirmed",
+    "in-progress": "In progress",
+    "pending": "Pending",
+    "done": "Completed",
+    "cancelled": "Cancelled"
+  }
+}

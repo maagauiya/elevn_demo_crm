@@ -1,0 +1,31 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", ":pinAllExceptPeerDependencies"],
+  "schedule": ["before 9am on monday"],
+  "timezone": "Europe/Moscow",
+  "minimumReleaseAge": "3 days",
+  "vulnerabilityAlerts": { "enabled": true, "schedule": ["at any time"] },
+  "packageRules": [
+    { "groupName": "react", "matchPackageNames": ["react", "react-dom", "@types/react", "@types/react-dom"] },
+    { "groupName": "tanstack", "matchPackageNames": ["@tanstack/**"] },
+    { "groupName": "radix", "matchPackageNames": ["radix-ui", "@radix-ui/**"] },
+    {
+      "groupName": "lint",
+      "matchPackageNames": [
+        "eslint",
+        "@eslint/**",
+        "typescript-eslint",
+        "eslint-plugin-**",
+        "globals",
+        "prettier",
+        "prettier-plugin-**"
+      ]
+    },
+    { "groupName": "test", "matchPackageNames": ["vitest", "@testing-library/**", "jsdom", "@playwright/test", "msw"] },
+    {
+      "description": "TypeScript 7 (Go) ждёт поддержки в typescript-eslint — обновляем вручную",
+      "matchPackageNames": ["typescript"],
+      "allowedVersions": "<7"
+    }
+  ]
+}

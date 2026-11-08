@@ -1,0 +1,10 @@
+dist
+coverage
+pnpm-lock.yaml
+public/mockServiceWorker.js
+mockups
+playwright-report
+test-results
+# Генерируются pnpm metadata:sync
+docs/sections.md
+src/features/navigation/mocks/fixtures

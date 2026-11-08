@@ -1,0 +1,10 @@
+{
+  "title": "Sign in to Elevn CRM",
+  "subtitle": "Use your employee account",
+  "login": "Login",
+  "password": "Password",
+  "remember": "Remember me",
+  "submit": "Sign in",
+  "demoHint": "Demo database: login DemoOpatra, password 123456789",
+  "failed": "Sign-in failed"
+}

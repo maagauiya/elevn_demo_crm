@@ -1,0 +1,82 @@
+{
+  "name": "elevn-crm",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "vite",
+    "dev:mocks": "vite --mode mocks",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc -b --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test",
+    "metadata:sync": "node scripts/sync-metadata.ts",
+    "api:describe": "node scripts/describe-method.ts"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "7.0.3",
+    "@tanstack/react-query": "5.106.1",
+    "@tanstack/react-table": "9.3.1",
+    "@tanstack/react-virtual": "3.14.26",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "date-fns": "4.4.0",
+    "i18next": "26.7.1",
+    "lucide-react": "1.69.0",
+    "radix-ui": "1.8.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-hook-form": "7.91.0",
+    "react-i18next": "17.1.12",
+    "react-router": "8.5.1",
+    "sonner": "2.0.8",
+    "tailwind-merge": "3.7.0",
+    "zod": "4.6.7",
+    "zustand": "5.0.16"
+  },
+  "devDependencies": {
+    "@babel/core": "8.1.0",
+    "@eslint/js": "10.0.1",
+    "@faker-js/faker": "10.6.0",
+    "@playwright/test": "1.64.1",
+    "@rolldown/plugin-babel": "0.3.0",
+    "@tailwindcss/vite": "4.3.4",
+    "@tanstack/react-query-devtools": "5.106.1",
+    "@testing-library/jest-dom": "7.0.1",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.8",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "10.14.0",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "eslint-plugin-react-refresh": "0.5.7",
+    "globals": "17.14.0",
+    "jsdom": "30.1.3",
+    "msw": "3.0.3",
+    "prettier": "3.9.10",
+    "prettier-plugin-tailwindcss": "0.8.1",
+    "tailwindcss": "4.3.4",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1",
+    "vite": "8.3.6",
+    "vitest": "5.1.0"
+  },
+  "packageManager": "pnpm@12.18.0",
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}
