@@ -12,6 +12,10 @@ export const loginRowSchema = z
     DPOSITION: z.string().nullish(),
     DIMAGE: z.string().nullish(),
     DEFNAVITEMID: apiField.optionalString,
+    ISATSON: apiField.bool.optional(),
+    ATSSERVER: apiField.optionalString.optional(),
+    ATSPASS: apiField.optionalString.optional(),
+    INTNUMBER: apiField.optionalString.optional(),
   })
   .transform((row) => ({
     userId: row.USERID,
@@ -22,6 +26,16 @@ export const loginRowSchema = z
     position: row.DPOSITION ?? '',
     photo: row.DIMAGE ?? null,
     defaultNavItemId: row.DEFNAVITEMID,
+    /**
+     * Телефония («Простые звонки»): сервер, пароль клиента и внутренний номер приходят в ответе логина.
+     * Пароль нужен браузеру для подключения к серверу АТС — так устроен протокол (см. backend-requests.md).
+     */
+    ats: {
+      enabled: row.ISATSON ?? false,
+      server: row.ATSSERVER ?? null,
+      password: row.ATSPASS ?? null,
+      extension: row.INTNUMBER ?? null,
+    },
   }));
 
 export type SessionUser = z.output<typeof loginRowSchema>;

@@ -1,7 +1,13 @@
 /** Форматирует российский номер: 79991234567 → +7 999 123-45-67. Остальное возвращает как есть. */
 export function formatPhone(raw: string): string {
   const digits = raw.replace(/\D/g, '');
-  const normalized = digits.length === 11 && digits.startsWith('8') ? `7${digits.slice(1)}` : digits;
+  // В базе встречаются 8XXXXXXXXXX и 10 цифр без кода страны (7073763498).
+  const normalized =
+    digits.length === 11 && digits.startsWith('8')
+      ? `7${digits.slice(1)}`
+      : digits.length === 10
+        ? `7${digits}`
+        : digits;
   const match = /^7(\d{3})(\d{3})(\d{2})(\d{2})$/.exec(normalized);
   if (!match) return raw;
   const [, a, b, c, d] = match;

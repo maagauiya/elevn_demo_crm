@@ -1,0 +1,164 @@
+[
+  {
+    "RECID": "0",
+    "RECTYPE": "0",
+    "RECNAME": "Показать все",
+    "HASDETAILS": "0",
+    "DETRECID": "",
+    "DETRECTYPE": "",
+    "DETRECNAME": ""
+  },
+  {
+    "RECID": "1",
+    "RECTYPE": "1",
+    "RECNAME": "Главный офис",
+    "HASDETAILS": "1",
+    "DETRECID": "1",
+    "DETRECTYPE": "2",
+    "DETRECNAME": "Администрация Главный Офис"
+  },
+  {
+    "RECID": "1",
+    "RECTYPE": "1",
+    "RECNAME": "Главный офис",
+    "HASDETAILS": "1",
+    "DETRECID": "1",
+    "DETRECTYPE": "1",
+    "DETRECNAME": "Весь филиал (Главный офис)"
+  },
+  {
+    "RECID": "2",
+    "RECTYPE": "1",
+    "RECNAME": "FASHION TV STUDIO",
+    "HASDETAILS": "1",
+    "DETRECID": "5003",
+    "DETRECTYPE": "2",
+    "DETRECNAME": "Косметологи Fashion TV Studio"
+  },
+  {
+    "RECID": "2",
+    "RECTYPE": "1",
+    "RECNAME": "FASHION TV STUDIO",
+    "HASDETAILS": "1",
+    "DETRECID": "5001",
+    "DETRECTYPE": "2",
+    "DETRECNAME": "Операторы колл-центра FTV"
+  },
+  {
+    "RECID": "2",
+    "RECTYPE": "1",
+    "RECNAME": "FASHION TV STUDIO",
+    "HASDETAILS": "1",
+    "DETRECID": "5004",
+    "DETRECTYPE": "2",
+    "DETRECNAME": "Ресепшен FTV"
+  },
+  {
+    "RECID": "2",
+    "RECTYPE": "1",
+    "RECNAME": "FASHION TV STUDIO",
+    "HASDETAILS": "1",
+    "DETRECID": "5005",
+    "DETRECTYPE": "2",
+    "DETRECNAME": "Финансовый отдел FTV"
+  },
+  {
+    "RECID": "2",
+    "RECTYPE": "1",
+    "RECNAME": "FASHION TV STUDIO",
+    "HASDETAILS": "1",
+    "DETRECID": "2",
+    "DETRECTYPE": "1",
+    "DETRECNAME": "Весь филиал (FASHION TV STUDIO)"
+  },
+  {
+    "RECID": "7",
+    "RECTYPE": "1",
+    "RECNAME": "VL Астана",
+    "HASDETAILS": "1",
+    "DETRECID": "5027",
+    "DETRECTYPE": "2",
+    "DETRECNAME": "Врачи VL Астана"
+  },
+  {
+    "RECID": "7",
+    "RECTYPE": "1",
+    "RECNAME": "VL Астана",
+    "HASDETAILS": "1",
+    "DETRECID": "5028",
+    "DETRECTYPE": "2",
+    "DETRECNAME": "Операторы КЦ VL Астана"
+  },
+  {
+    "RECID": "7",
+    "RECTYPE": "1",
+    "RECNAME": "VL Астана",
+    "HASDETAILS": "1",
+    "DETRECID": "5030",
+    "DETRECTYPE": "2",
+    "DETRECNAME": "Ресепешн VL Астана "
+  },
+  {
+    "RECID": "7",
+    "RECTYPE": "1",
+    "RECNAME": "VL Астана",
+    "HASDETAILS": "1",
+    "DETRECID": "5032",
+    "DETRECTYPE": "2",
+    "DETRECNAME": "Фин.отдел VL Астана "
+  },
+  {
+    "RECID": "7",
+    "RECTYPE": "1",
+    "RECNAME": "VL Астана",
+    "HASDETAILS": "1",
+    "DETRECID": "7",
+    "DETRECTYPE": "1",
+    "DETRECNAME": "Весь филиал (VL Астана)"
+  },
+  {
+    "RECID": "8",
+    "RECTYPE": "1",
+    "RECNAME": "VL Алматы ",
+    "HASDETAILS": "1",
+    "DETRECID": "5026",
+    "DETRECTYPE": "2",
+    "DETRECNAME": "Врачи VL Алматы"
+  },
+  {
+    "RECID": "8",
+    "RECTYPE": "1",
+    "RECNAME": "VL Алматы ",
+    "HASDETAILS": "1",
+    "DETRECID": "5029",
+    "DETRECTYPE": "2",
+    "DETRECNAME": "Операторы КЦ VL Алматы "
+  },
+  {
+    "RECID": "8",
+    "RECTYPE": "1",
+    "RECNAME": "VL Алматы ",
+    "HASDETAILS": "1",
+    "DETRECID": "5031",
+    "DETRECTYPE": "2",
+    "DETRECNAME": "Ресепешн VL Алматы"
+  },
+  {
+    "RECID": "8",
+    "RECTYPE": "1",
+    "RECNAME": "VL Алматы ",
+    "HASDETAILS": "1",
+    "DETRECID": "5033",
+    "DETRECTYPE": "2",
+    "DETRECNAME": "Фин.отдел VL Алматы"
+  },
+  {
+    "RECID": "8",
+    "RECTYPE": "1",
+    "RECNAME": "VL Алматы ",
+    "HASDETAILS": "1",
+    "DETRECID": "8",
+    "DETRECTYPE": "1",
+    "DETRECNAME": "Весь филиал (VL Алматы )"
+  }
+]

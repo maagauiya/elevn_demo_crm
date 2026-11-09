@@ -1,5 +1,12 @@
 {
-  "title": {
-    "feature": "Уведомления, АТС, WhatsApp, SMS. Своих роутов нет — виджеты для AppShell и журнала."
-  }
+  "title": "Уведомления",
+  "open": "Открыть",
+  "empty": "Новых уведомлений нет",
+  "all": "Все",
+  "system": "Новости Elevn",
+  "count_one": "{{count}} уведомление",
+  "count_few": "{{count}} уведомления",
+  "count_many": "{{count}} уведомлений",
+  "count_other": "{{count}} уведомления",
+  "notFound": "Запись не найдена"
 }

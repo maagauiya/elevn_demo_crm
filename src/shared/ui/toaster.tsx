@@ -3,7 +3,7 @@ import { Toaster as Sonner, toast } from 'sonner';
 export function Toaster() {
   return (
     <Sonner
-      position="bottom-right"
+      position="top-center"
       toastOptions={{
         classNames: {
           toast: 'rounded-md border border-hairline bg-canvas text-body text-ink shadow-raised',

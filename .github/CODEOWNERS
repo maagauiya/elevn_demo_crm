@@ -11,6 +11,8 @@
 /src/features/dashboard/       @TRACK_A
 /src/features/work-schedule/   @TRACK_A
 /src/features/notifications/   @TRACK_A
+/src/features/telephony/       @TRACK_A
+/src/features/messaging/       @TRACK_A
 
 # Трек B — движок таблиц, медицина, деньги, канбан
 /src/features/handbook/        @TRACK_B
@@ -21,4 +23,5 @@
 
 # Навигация (меню из WAGetNav, типы пунктов → движки) — общее
 /src/features/navigation/      @TRACK_A @TRACK_B
+/src/features/item-params/     @TRACK_A @TRACK_B
 /scripts/                      @TRACK_A @TRACK_B

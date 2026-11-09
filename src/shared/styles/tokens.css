@@ -39,6 +39,16 @@
   --color-status-cancelled-bg: #f1f1f3;
   --color-status-cancelled-fg: #7a7f8a;
 
+  /* Категориальная палитра графиков (только серии данных, порядок фиксирован) */
+  --color-chart-1: #2a78d6;
+  --color-chart-2: #eb6834;
+  --color-chart-3: #1baf7a;
+  --color-chart-4: #eda100;
+  --color-chart-5: #e87ba4;
+  --color-chart-6: #008300;
+  --color-chart-7: #6250d6;
+  --color-chart-8: #e34948;
+
   /* Алиасы для компонентов, добавленных через shadcn CLI (см. docs/CONTRIBUTING.md) */
   --color-background: var(--color-canvas-sunken);
   --color-foreground: var(--color-ink);

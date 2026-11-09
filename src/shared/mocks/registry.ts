@@ -4,6 +4,12 @@ import { env } from '@/shared/lib/env';
 /** Тело запроса к единому эндпоинту. */
 export type MockRequest = Record<string, unknown> & { MethodName?: string };
 
+/** Значение параметра запроса строкой (бэкенд тоже получает всё строками). */
+export function param(request: MockRequest, name: string): string {
+  const value = request[name];
+  return typeof value === 'string' || typeof value === 'number' ? String(value) : '';
+}
+
 /** Хендлер одного метода: получает тело запроса, возвращает строки data. */
 export type MockMethod = (request: MockRequest) => unknown[] | Promise<unknown[]>;
 

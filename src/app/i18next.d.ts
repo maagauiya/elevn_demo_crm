@@ -6,9 +6,11 @@ import type dental from '@/features/dental/locales/ru.json';
 import type handbook from '@/features/handbook/locales/ru.json';
 import type kanban from '@/features/kanban/locales/ru.json';
 import type logbook from '@/features/logbook/locales/ru.json';
+import type messaging from '@/features/messaging/locales/ru.json';
 import type multiselect from '@/features/multiselect/locales/ru.json';
 import type navigation from '@/features/navigation/locales/ru.json';
 import type notifications from '@/features/notifications/locales/ru.json';
+import type telephony from '@/features/telephony/locales/ru.json';
 import type workSchedule from '@/features/work-schedule/locales/ru.json';
 import type common from '@/shared/i18n/locales/ru.json';
 
@@ -23,6 +25,8 @@ declare module 'i18next' {
       dashboard: typeof dashboard;
       'work-schedule': typeof workSchedule;
       notifications: typeof notifications;
+      telephony: typeof telephony;
+      messaging: typeof messaging;
       handbook: typeof handbook;
       kanban: typeof kanban;
       navigation: typeof navigation;

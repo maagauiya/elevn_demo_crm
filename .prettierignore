@@ -8,3 +8,5 @@ test-results
 # Генерируются pnpm metadata:sync
 docs/sections.md
 src/features/navigation/mocks/fixtures
+# Сторонние библиотеки — как есть
+src/**/vendor

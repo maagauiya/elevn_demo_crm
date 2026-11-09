@@ -1,3 +1,3 @@
-// Публичный API фичи notifications (трек A): Уведомления, АТС, WhatsApp, SMS. Своих роутов нет — виджеты для AppShell и журнала.
-// Другие фичи импортируют только отсюда. Держи файл лёгким — без тяжёлых импортов.
-export {};
+// Публичный API фичи notifications (трек A): колокольчик со списком и всплывающие уведомления.
+export { NotificationBell } from './components/NotificationBell';
+export { FloatingNotifier } from './components/FloatingNotifier';

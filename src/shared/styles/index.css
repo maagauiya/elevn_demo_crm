@@ -23,3 +23,30 @@
     outline-offset: 2px;
   }
 }
+
+/* Нерабочее время (design-system.md): canvas-sunken + диагональная штриховка hairline. */
+@utility bg-hatch {
+  background-color: var(--color-canvas-sunken);
+  background-image: repeating-linear-gradient(135deg, var(--color-hairline) 0 1px, transparent 1px 8px);
+}
+
+/* Печать (PrintPortal): на экране корень печати скрыт, при печати — всё остальное. */
+@media screen {
+  .print-root {
+    display: none;
+  }
+}
+
+@media print {
+  body > *:not(.print-root) {
+    display: none !important;
+  }
+
+  .print-root {
+    display: block;
+  }
+
+  @page {
+    margin: 12mm;
+  }
+}

@@ -26,15 +26,15 @@
 | 88 | Оплаты курса (скрыт для роли) | 1 | table | B | /info/124 | `WAReportCoursePaymentBC` |  |
 | 122 | Услуги клиента (скрыт для роли) | 1 | table | B | /info/167 | `WAReportClientManipulation` |  |
 | 213 | Услуги события (скрыт для роли) | 1 | table | B | /info/249 | `WAReportManipulationByApp` |  |
-| 193 | Исследование клиента (скрыт для роли) | 6 | dashboard | A | /dashboard/229 | — |  |
+| 193 | Исследование клиента (скрыт для роли) | 6 | dashboard | A | /dashboard/229 | — | 🚧 |
 | 189 | По сертификатам - Детализация (скрыт для роли) | 1 | table | B | /info/216 | `WAReportCertificateNNDet` |  |
-| 1 | Расписание | -1 | logbook | A | /logbook | — |  |
-| 129 | Расписание по кабинетам | -10 | offices | A | /offices | — |  |
+| 1 | Расписание | -1 | logbook | A | /logbook | — | ✅ |
+| 129 | Расписание по кабинетам | -10 | offices | A | /offices | — | ✅ |
 | 54 | Справочники › Филиалы | 1 | table | B | /info/65 | `WAGetCompanyList` |  |
 | 3 | Справочники › Клиенты | 7 | table | B | /info/4 | `WAGetClientList` |  |
 | 4 | Справочники › Специалисты | 1 | table | B | /info/1 | `WaGetDoctorList` |  |
 | 5 | Справочники › Услуги | 1 | table | B | /info/5 | `WAGetManipList` |  |
-| 53 | Справочники › График работы | -2 | work-schedule | A | /work_schedule | `WATTGetTree` |  |
+| 53 | Справочники › График работы | -2 | work-schedule | A | /work_schedule | `WATTGetTree` | ✅ |
 | 114 | Справочники › График онлайн-записи | 1 | table | B | /info/158 | `WAReportTTIsORDay` |  |
 | 72 | Справочники › Кабинеты | 1 | table | B | /info/110 | `WAGetCabinetList` |  |
 | 85 | Справочники › Оборудование | 1 | table | B | /info/121 | `WAGetEquipmentList` |  |
@@ -112,15 +112,15 @@
 | 152 | Аналитика › Маркетинг › Отзывы клиентов (специалисты) | 1 | table | B | /info/170 | `WAReportClientReview` |  |
 | 167 | Аналитика › Маркетинг › Отзывы клиентов (визиты) | 1 | table | B | /info/182 | `WAReportClientReviewVisit` |  |
 | 173 | Аналитика › Маркетинг › Визиты по предзаписи | 1 | table | B | /info/186 | `WAReportVisitOnChain` |  |
-| 45 | Аналитика › Дашборды › Подробная информация | 6 | dashboard | A | /dashboard/60 | — |  |
-| 94 | Аналитика › Дашборды › Выручка по специалистам (график) | 3 | chart | A | /chart/136 | `WAChartProceedsDepDoc` |  |
-| 95 | Аналитика › Дашборды › Возвратность по специалистам (график) | 3 | chart | A | /chart/137 | `WAChartNewClientDepDoc` |  |
-| 96 | Аналитика › Дашборды › Первичные клиенты и возвратность (график) | 3 | chart | A | /chart/138 | `WAChartNewRetClientDouble` |  |
-| 97 | Аналитика › Дашборды › Обработка звонков - первичные (график) | 3 | chart | A | /chart/139 | `WAChartCallNewClients` |  |
-| 98 | Аналитика › Дашборды › Выручка по группам услуг | 6 | dashboard | A | /dashboard/142 | — |  |
-| 183 | Аналитика › Дашборды › Выручка по услугам | 6 | dashboard | A | /dashboard/203 | — |  |
-| 175 | Аналитика › Дашборды › Бонусы и скидки | 6 | dashboard | A | /dashboard/194 | — |  |
-| 186 | Аналитика › Дашборды › Онлайн записи | 6 | dashboard | A | /dashboard/213 | — |  |
+| 45 | Аналитика › Дашборды › Подробная информация | 6 | dashboard | A | /dashboard/60 | — | ✅ |
+| 94 | Аналитика › Дашборды › Выручка по специалистам (график) | 3 | chart | A | /chart/136 | `WAChartProceedsDepDoc` | ✅ |
+| 95 | Аналитика › Дашборды › Возвратность по специалистам (график) | 3 | chart | A | /chart/137 | `WAChartNewClientDepDoc` | ✅ |
+| 96 | Аналитика › Дашборды › Первичные клиенты и возвратность (график) | 3 | chart | A | /chart/138 | `WAChartNewRetClientDouble` | ✅ |
+| 97 | Аналитика › Дашборды › Обработка звонков - первичные (график) | 3 | chart | A | /chart/139 | `WAChartCallNewClients` | ✅ |
+| 98 | Аналитика › Дашборды › Выручка по группам услуг | 6 | dashboard | A | /dashboard/142 | — | ✅ |
+| 183 | Аналитика › Дашборды › Выручка по услугам | 6 | dashboard | A | /dashboard/203 | — | ✅ |
+| 175 | Аналитика › Дашборды › Бонусы и скидки | 6 | dashboard | A | /dashboard/194 | — | ✅ |
+| 186 | Аналитика › Дашборды › Онлайн записи | 6 | dashboard | A | /dashboard/213 | — | ✅ |
 | 120 | Аналитика › Контроль › Журнал действий | 1 | table | B | /info/165 | `WAReportWALog` |  |
 | 169 | Аналитика › Контроль › Контроль закрытия смен | 1 | table | B | /info/183 | `WAReportDayclose` |  |
 | 57 | Аналитика › Курсы › Курсы - оплаты | 1 | table | B | /info/90 | `WAReportCoursePayment` |  |
@@ -160,7 +160,7 @@
 | 148 | Медицинский блок › Отчеты › По страховым процедурам | 1 | table | B | /info/134 | `WAReportINSPManipulation` |  |
 | 222 | Медицинский блок › Отчеты › Реестр по ДМС | 1 | table | B | /info/257 | `WAReportInspManipulationDMS` |  |
 | 149 | Медицинский блок › Отчеты › Рентабельность страховых компаний | 1 | table | B | /info/135 | `WAReportInsuranceProfit` |  |
-| 146 | Медицинский блок › Отчеты › Контроль записей | 6 | dashboard | A | /dashboard/97 | — |  |
+| 146 | Медицинский блок › Отчеты › Контроль записей | 6 | dashboard | A | /dashboard/97 | — | ✅ |
 | 151 | Медицинский блок › Отчеты › По записям специалистов | 1 | table | B | /info/169 | `WAReportMedcardRecords` |  |
 | 101 | Задачи › План работ на сегодня | 1 | table | B | /info/144 | `WACWGetWorkToday` |  |
 | 102 | Задачи › Просроченные задачи | 1 | table | B | /info/145 | `WACWGetWorkExpired` |  |
@@ -170,8 +170,8 @@
 | 106 | Задачи › Задачи - скоро (все сотрудники) | 1 | table | B | /info/149 | `WACWGetWorkSoonAll` |  |
 | 107 | Задачи › Просроченные задачи (все сотрудники) | 1 | table | B | /info/150 | `WACWGetWorkExpiredAll` |  |
 | 108 | Задачи › Выполненные задачи (все сотрудники) | 1 | table | B | /info/151 | `WACWGetWorkDoneAll` |  |
-| 225 | Задачи › Конверсия задач в запись | 6 | dashboard | A | /dashboard/262 | — |  |
-| 160 | Фитнес › Расписание групповых занятий | -100 | training | A | /training | — |  |
+| 225 | Задачи › Конверсия задач в запись | 6 | dashboard | A | /dashboard/262 | — | ✅ |
+| 160 | Фитнес › Расписание групповых занятий | -100 | training | A | /training | — | 🚧 нет данных в демо-базе, проверено на моках |
 | 156 | Фитнес › Справочники › Абонементы | 1 | table | B | /info/172 | `WAGetDictsubscriptionList` |  |
 | 157 | Фитнес › Справочники › Абонементы (продажи) | 1 | table | B | /info/173 | `WAGetSubscriptionList` |  |
 | 194 | Фитнес › Справочники › Условия аренды | 1 | table | B | /info/230 | `WAGetRentalTermList` |  |
@@ -215,4 +215,4 @@
 | 116 | Склад › Отчеты › Продажа товаров специалистам | 1 | table | B | /info/160 | `WAReportMaterialSaleDoctor` |  |
 | 182 | Склад › Отчеты › Выгрузка в 1С | 1 | table | B | /info/200 | `WAReport1CDocuments` |  |
 | 223 | Сервис (скрыт для роли) | 1 | table | B | /info/258 | `WAReportAppList` |  |
-| 44 | Дашборд | 6 | dashboard | A | /dashboard/46 | — |  |
+| 44 | Дашборд | 6 | dashboard | A | /dashboard/46 | — | ✅ |

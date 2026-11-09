@@ -1,12 +1,7 @@
-import { expect, type Page, test } from '@playwright/test';
+import { expect, test } from '@playwright/test';
+import { login } from './helpers';
 
 // e2e идут на MSW-моках (vite --mode mocks): меню — снимок реального WAGetNav из демо-базы.
-async function login(page: Page, password = '123456789') {
-  await page.goto('/login');
-  await page.getByLabel('Логин').fill('DemoOpatra');
-  await page.getByLabel('Пароль').fill(password);
-  await page.getByRole('button', { name: 'Войти' }).click();
-}
 
 test('логин → стартовый раздел → переход по вложенному меню', async ({ page }) => {
   await page.goto('/');
@@ -18,7 +13,7 @@ test('логин → стартовый раздел → переход по в�
 
   await nav.getByRole('link', { name: 'Расписание', exact: true }).click();
   await expect(page).toHaveURL(/\/logbook$/);
-  await expect(page.getByRole('heading', { level: 1, name: 'Журнал записей' })).toBeVisible();
+  await expect(page.getByText(/\d+ специалист/)).toBeVisible();
 
   // Вложенная папка: Склад › Справочники › Товары → движок таблиц
   const sklad = nav.getByRole('button', { name: 'Склад', exact: true });

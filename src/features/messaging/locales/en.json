@@ -1,0 +1,32 @@
+{
+  "title": "WhatsApp",
+  "instances": "WhatsApp instances",
+  "instancesHint": "Accounts the CRM uses to message clients.",
+  "default": "default",
+  "state": {
+    "authorized": "Connected",
+    "notAuthorized": "Not authorized — scan the QR code",
+    "sleepMode": "Sleep mode",
+    "starting": "Starting",
+    "yellowCard": "Restricted by WhatsApp",
+    "blocked": "Blocked",
+    "unknown": "Unknown"
+  },
+  "queue": "Queued: {{count}}",
+  "qr": "Show QR code",
+  "qrHint": "Open WhatsApp → Linked devices → Link a device and point the camera.",
+  "reboot": "Reboot",
+  "logout": "Log out",
+  "clearQueue": "Clear queue",
+  "refresh": "Refresh",
+  "unavailable": "WhatsApp gateway unavailable",
+  "unavailableHint": "Direct browser requests to Green API are off: instance tokens must not reach the frontend. A backend proxy is needed (docs/backend-requests.md).",
+  "noToken": "Instance has no token (automatic selection)",
+  "chat": "Message on WhatsApp",
+  "chatTitle": "Conversation",
+  "message": "Message",
+  "send": "Send",
+  "sent": "Message sent",
+  "empty": "No messages yet",
+  "done": "Done"
+}

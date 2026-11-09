@@ -1,0 +1,2238 @@
+{
+  "params": {
+    "3": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "3"
+      }
+    ],
+    "31": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "31"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "31"
+      }
+    ],
+    "32": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "32"
+      }
+    ],
+    "33": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "33"
+      }
+    ],
+    "34": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "34"
+      }
+    ],
+    "35": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "35"
+      }
+    ],
+    "36": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "36"
+      }
+    ],
+    "37": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "37"
+      }
+    ],
+    "38": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "38"
+      }
+    ],
+    "39": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "39"
+      }
+    ],
+    "40": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "40"
+      }
+    ],
+    "41": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "41"
+      }
+    ],
+    "42": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "42"
+      }
+    ],
+    "43": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "43"
+      }
+    ],
+    "44": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "44"
+      }
+    ],
+    "45": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "45"
+      }
+    ],
+    "46": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "46"
+      }
+    ],
+    "47": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "47"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "47"
+      }
+    ],
+    "48": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "48"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "48"
+      }
+    ],
+    "49": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "49"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "49"
+      }
+    ],
+    "50": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "50"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "50"
+      }
+    ],
+    "51": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "51"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "51"
+      }
+    ],
+    "52": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "52"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "52"
+      }
+    ],
+    "53": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "53"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "53"
+      }
+    ],
+    "54": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "54"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "54"
+      }
+    ],
+    "55": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "55"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "55"
+      }
+    ],
+    "56": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "56"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "56"
+      }
+    ],
+    "57": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "57"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "57"
+      }
+    ],
+    "58": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "58"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "58"
+      }
+    ],
+    "59": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "59"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "59"
+      }
+    ],
+    "60": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "60"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "60"
+      }
+    ],
+    "94": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "94"
+      }
+    ],
+    "95": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "95"
+      }
+    ],
+    "96": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "96"
+      }
+    ],
+    "97": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "97"
+      }
+    ],
+    "136": [
+      {
+        "DBFIELDNAME": "DEPARTMENTID",
+        "CAPTION": "Подразделение",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_DEPARTMENT_BY_USER",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "136"
+      },
+      {
+        "DBFIELDNAME": "DATEFROM",
+        "CAPTION": "Дата c   ",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-01",
+        "CURWAITEMID": "136"
+      },
+      {
+        "DBFIELDNAME": "DATETO",
+        "CAPTION": "Дата по",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-30",
+        "CURWAITEMID": "136"
+      }
+    ],
+    "137": [
+      {
+        "DBFIELDNAME": "DEPARTMENTID",
+        "CAPTION": "Подразделение",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_DEPARTMENT_BY_USER",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "137"
+      },
+      {
+        "DBFIELDNAME": "DATEFROM",
+        "CAPTION": "Дата c   ",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-01",
+        "CURWAITEMID": "137"
+      },
+      {
+        "DBFIELDNAME": "DATETO",
+        "CAPTION": "Дата по",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-30",
+        "CURWAITEMID": "137"
+      }
+    ],
+    "138": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "138"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "138"
+      }
+    ],
+    "139": [
+      {
+        "DBFIELDNAME": "DATEFROM",
+        "CAPTION": "Дата c   ",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-01",
+        "CURWAITEMID": "139"
+      },
+      {
+        "DBFIELDNAME": "DATETO",
+        "CAPTION": "Дата по",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-30",
+        "CURWAITEMID": "139"
+      }
+    ],
+    "140": [
+      {
+        "DBFIELDNAME": "DOCTORID",
+        "CAPTION": "Специалист",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_DOCTOR_BY_USER",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "140"
+      },
+      {
+        "DBFIELDNAME": "DATEFROM",
+        "CAPTION": "Дата c   ",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-01",
+        "CURWAITEMID": "140"
+      },
+      {
+        "DBFIELDNAME": "DATETO",
+        "CAPTION": "Дата по",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-30",
+        "CURWAITEMID": "140"
+      }
+    ],
+    "141": [
+      {
+        "DBFIELDNAME": "DOCTORID",
+        "CAPTION": "Специалист",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_DOCTOR_BY_USER",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "141"
+      },
+      {
+        "DBFIELDNAME": "DATEFROM",
+        "CAPTION": "Дата c   ",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-01",
+        "CURWAITEMID": "141"
+      },
+      {
+        "DBFIELDNAME": "DATETO",
+        "CAPTION": "Дата по",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-30",
+        "CURWAITEMID": "141"
+      }
+    ],
+    "142": [
+      {
+        "DBFIELDNAME": "DATEFROM",
+        "CAPTION": "Дата c   ",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-01",
+        "CURWAITEMID": "142"
+      },
+      {
+        "DBFIELDNAME": "DATETO",
+        "CAPTION": "Дата по",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-30",
+        "CURWAITEMID": "142"
+      },
+      {
+        "DBFIELDNAME": "DOCTORID",
+        "CAPTION": "Специалист",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_DOCTOR_BY_USER",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "142"
+      }
+    ],
+    "188": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "188"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "188"
+      }
+    ],
+    "189": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "189"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "189"
+      }
+    ],
+    "190": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "190"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "190"
+      }
+    ],
+    "191": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "191"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "191"
+      }
+    ],
+    "192": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "192"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "192"
+      }
+    ],
+    "193": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "193"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "193"
+      }
+    ],
+    "194": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "194"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "194"
+      }
+    ],
+    "201": [
+      {
+        "DBFIELDNAME": "DOCTORID",
+        "CAPTION": "Специалист",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_DOCTOR_BY_USER",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "201"
+      },
+      {
+        "DBFIELDNAME": "DATEFROM",
+        "CAPTION": "Дата c   ",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-01",
+        "CURWAITEMID": "201"
+      },
+      {
+        "DBFIELDNAME": "DATETO",
+        "CAPTION": "Дата по",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-30",
+        "CURWAITEMID": "201"
+      }
+    ],
+    "202": [
+      {
+        "DBFIELDNAME": "DOCTORID",
+        "CAPTION": "Специалист",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_DOCTOR_BY_USER",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "202"
+      },
+      {
+        "DBFIELDNAME": "DATEFROM",
+        "CAPTION": "Дата c   ",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-01",
+        "CURWAITEMID": "202"
+      },
+      {
+        "DBFIELDNAME": "DATETO",
+        "CAPTION": "Дата по",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-30",
+        "CURWAITEMID": "202"
+      }
+    ],
+    "203": [
+      {
+        "DBFIELDNAME": "DATEFROM",
+        "CAPTION": "Дата c   ",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-01",
+        "CURWAITEMID": "203"
+      },
+      {
+        "DBFIELDNAME": "DATETO",
+        "CAPTION": "Дата по",
+        "FIELDTYPEID": "6",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "",
+        "DICTTYPE": "",
+        "WUSERID": "",
+        "DEFAULTVALUE": "2026-11-30",
+        "CURWAITEMID": "203"
+      },
+      {
+        "DBFIELDNAME": "DOCTORID",
+        "CAPTION": "Специалист",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_DOCTOR_BY_USER",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "203"
+      }
+    ],
+    "206": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "206"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "206"
+      }
+    ],
+    "207": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "207"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "207"
+      }
+    ],
+    "208": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "208"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "208"
+      }
+    ],
+    "209": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "209"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "209"
+      }
+    ],
+    "210": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "210"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "210"
+      }
+    ],
+    "211": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "211"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "211"
+      }
+    ],
+    "212": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "212"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "212"
+      }
+    ],
+    "213": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "213"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "213"
+      }
+    ],
+    "220": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "220"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "220"
+      }
+    ],
+    "221": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "221"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "221"
+      }
+    ],
+    "222": [
+      {
+        "DBFIELDNAME": "CLIENTID",
+        "CAPTION": "клиент",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_CLIENT_NODICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "222"
+      }
+    ],
+    "223": [
+      {
+        "DBFIELDNAME": "CLIENTID",
+        "CAPTION": "клиент",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_CLIENT_NODICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "223"
+      }
+    ],
+    "224": [
+      {
+        "DBFIELDNAME": "CLIENTID",
+        "CAPTION": "клиент",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_CLIENT_NODICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "224"
+      }
+    ],
+    "225": [
+      {
+        "DBFIELDNAME": "CLIENTID",
+        "CAPTION": "клиент",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_CLIENT_NODICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "225"
+      }
+    ],
+    "226": [
+      {
+        "DBFIELDNAME": "CLIENTID",
+        "CAPTION": "клиент",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_CLIENT_NODICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "226"
+      }
+    ],
+    "227": [
+      {
+        "DBFIELDNAME": "CLIENTID",
+        "CAPTION": "клиент",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_CLIENT_NODICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "227"
+      }
+    ],
+    "228": [
+      {
+        "DBFIELDNAME": "CLIENTID",
+        "CAPTION": "клиент",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_CLIENT_NODICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "228"
+      }
+    ],
+    "229": [
+      {
+        "DBFIELDNAME": "CLIENTID",
+        "CAPTION": "клиент",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_CLIENT_NODICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "229"
+      }
+    ],
+    "234": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "234"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "234"
+      }
+    ],
+    "235": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "235"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "235"
+      }
+    ],
+    "260": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "260"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "260"
+      }
+    ],
+    "261": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "261"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "261"
+      }
+    ],
+    "262": [
+      {
+        "DBFIELDNAME": "COMPANYID",
+        "CAPTION": "Филиал",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_COMPANYS_BY_USERID_WALL",
+        "DICTTYPE": "0",
+        "WUSERID": "1",
+        "DEFAULTVALUE": "",
+        "CURWAITEMID": "262"
+      },
+      {
+        "DBFIELDNAME": "YEARID",
+        "CAPTION": "Год ",
+        "FIELDTYPEID": "10",
+        "STRINGMAXLEN": "0",
+        "NUMSIZE": "0",
+        "ROTPOINT": "0",
+        "DICTNAME": "GET_YEARS_DICT",
+        "DICTTYPE": "0",
+        "WUSERID": "0",
+        "DEFAULTVALUE": "2026",
+        "CURWAITEMID": "262"
+      }
+    ]
+  },
+  "dicts": {
+    "GET_CLIENT_NODICT|0|0": [
+      {
+        "DICTID": "",
+        "DICTVALUE": ""
+      }
+    ],
+    "GET_COMPANYS_BY_USERID_WALL|0|1": [
+      {
+        "DICTID": "-1",
+        "DICTVALUE": "Все филиалы"
+      },
+      {
+        "DICTID": "1",
+        "DICTVALUE": "Главный офис"
+      },
+      {
+        "DICTID": "2",
+        "DICTVALUE": "FASHION TV STUDIO"
+      },
+      {
+        "DICTID": "7",
+        "DICTVALUE": "VL Астана"
+      },
+      {
+        "DICTID": "8",
+        "DICTVALUE": "VL Алматы "
+      }
+    ],
+    "GET_YEARS_DICT|0|0": [
+      {
+        "DICTID": "2027",
+        "DICTVALUE": "2027"
+      },
+      {
+        "DICTID": "2026",
+        "DICTVALUE": "2026"
+      },
+      {
+        "DICTID": "2025",
+        "DICTVALUE": "2025"
+      },
+      {
+        "DICTID": "2024",
+        "DICTVALUE": "2024"
+      },
+      {
+        "DICTID": "2023",
+        "DICTVALUE": "2023"
+      },
+      {
+        "DICTID": "2022",
+        "DICTVALUE": "2022"
+      },
+      {
+        "DICTID": "2021",
+        "DICTVALUE": "2021"
+      },
+      {
+        "DICTID": "2020",
+        "DICTVALUE": "2020"
+      },
+      {
+        "DICTID": "2019",
+        "DICTVALUE": "2019"
+      },
+      {
+        "DICTID": "2018",
+        "DICTVALUE": "2018"
+      },
+      {
+        "DICTID": "2017",
+        "DICTVALUE": "2017"
+      },
+      {
+        "DICTID": "2016",
+        "DICTVALUE": "2016"
+      },
+      {
+        "DICTID": "2015",
+        "DICTVALUE": "2015"
+      },
+      {
+        "DICTID": "2014",
+        "DICTVALUE": "2014"
+      },
+      {
+        "DICTID": "2013",
+        "DICTVALUE": "2013"
+      },
+      {
+        "DICTID": "2012",
+        "DICTVALUE": "2012"
+      },
+      {
+        "DICTID": "2011",
+        "DICTVALUE": "2011"
+      },
+      {
+        "DICTID": "2010",
+        "DICTVALUE": "2010"
+      },
+      {
+        "DICTID": "2009",
+        "DICTVALUE": "2009"
+      },
+      {
+        "DICTID": "2008",
+        "DICTVALUE": "2008"
+      },
+      {
+        "DICTID": "2007",
+        "DICTVALUE": "2007"
+      }
+    ],
+    "GET_DOCTOR_BY_USER|0|1": [
+      {
+        "DICTID": "-1",
+        "DICTVALUE": "Все специалисты"
+      },
+      {
+        "DICTID": "2001",
+        "DICTVALUE": "В.."
+      },
+      {
+        "DICTID": "2002",
+        "DICTVALUE": "Кенжетаев К.С."
+      },
+      {
+        "DICTID": "2003",
+        "DICTVALUE": "Касымбекова Ш.Т."
+      },
+      {
+        "DICTID": "2004",
+        "DICTVALUE": "Асхаткызы Г.. Уволен 20.08.2025"
+      },
+      {
+        "DICTID": "2005",
+        "DICTVALUE": "Логинова Д.. Уволен 01.01.2000"
+      },
+      {
+        "DICTID": "2020",
+        "DICTVALUE": "Абдижали Е.."
+      },
+      {
+        "DICTID": "2021",
+        "DICTVALUE": "Литвиненко В.."
+      },
+      {
+        "DICTID": "2028",
+        "DICTVALUE": "Шолгина В.А."
+      },
+      {
+        "DICTID": "2029",
+        "DICTVALUE": "Кушваева В.Р. Уволен 27.08.2025"
+      },
+      {
+        "DICTID": "2030",
+        "DICTVALUE": "Акчибаева Д.."
+      },
+      {
+        "DICTID": "2180",
+        "DICTVALUE": "Магомедова А.. Уволен 27.08.2025"
+      },
+      {
+        "DICTID": "2036",
+        "DICTVALUE": "Шаймерден А.М. Уволен 27.08.2025"
+      },
+      {
+        "DICTID": "2038",
+        "DICTVALUE": "Муратова Р.. Уволен 20.08.2025"
+      },
+      {
+        "DICTID": "2181",
+        "DICTVALUE": "Шолгина В.. Уволен 27.08.2025"
+      },
+      {
+        "DICTID": "2182",
+        "DICTVALUE": "Кидиралиев Г.. Уволен 27.08.2025"
+      },
+      {
+        "DICTID": "2046",
+        "DICTVALUE": "Лаевский Д.В. Уволен 20.08.2025"
+      },
+      {
+        "DICTID": "2047",
+        "DICTVALUE": "У.. Уволен 10.07.2025"
+      },
+      {
+        "DICTID": "2055",
+        "DICTVALUE": "Воскресенская Н.."
+      },
+      {
+        "DICTID": "2056",
+        "DICTVALUE": "В.Ю."
+      },
+      {
+        "DICTID": "2057",
+        "DICTVALUE": "Нурбаев А.А."
+      },
+      {
+        "DICTID": "2059",
+        "DICTVALUE": "Бот А.. Уволен 27.08.2025"
+      },
+      {
+        "DICTID": "2060",
+        "DICTVALUE": "Экман Р.."
+      },
+      {
+        "DICTID": "2063",
+        "DICTVALUE": "Бейсенова Ж.."
+      },
+      {
+        "DICTID": "2064",
+        "DICTVALUE": "Жакупбаева Б.."
+      },
+      {
+        "DICTID": "2065",
+        "DICTVALUE": "Максаткызы А.."
+      },
+      {
+        "DICTID": "2066",
+        "DICTVALUE": "Сапарова М.."
+      },
+      {
+        "DICTID": "2067",
+        "DICTVALUE": "Рахымбаева А.."
+      },
+      {
+        "DICTID": "2068",
+        "DICTVALUE": "Бахытбеккызы А.."
+      },
+      {
+        "DICTID": "2069",
+        "DICTVALUE": "Сейдула Ш.."
+      },
+      {
+        "DICTID": "2070",
+        "DICTVALUE": "Адильханова А.."
+      },
+      {
+        "DICTID": "2071",
+        "DICTVALUE": "Аминова Ф.."
+      },
+      {
+        "DICTID": "2072",
+        "DICTVALUE": "Ярымов В.."
+      },
+      {
+        "DICTID": "2073",
+        "DICTVALUE": "Естаева Д.."
+      },
+      {
+        "DICTID": "2074",
+        "DICTVALUE": "Карасай Р.."
+      },
+      {
+        "DICTID": "2075",
+        "DICTVALUE": "Кадырбекова А.."
+      },
+      {
+        "DICTID": "2076",
+        "DICTVALUE": "Пауеден Д.."
+      },
+      {
+        "DICTID": "2077",
+        "DICTVALUE": "Нургали Н.Т."
+      },
+      {
+        "DICTID": "2078",
+        "DICTVALUE": "Курбанбай Ж.."
+      },
+      {
+        "DICTID": "2079",
+        "DICTVALUE": "Чуланова К.."
+      },
+      {
+        "DICTID": "2080",
+        "DICTVALUE": "Ананьева Я.."
+      },
+      {
+        "DICTID": "2081",
+        "DICTVALUE": "Кабилдинова С.."
+      },
+      {
+        "DICTID": "2084",
+        "DICTVALUE": "Баймуханов Д.А."
+      },
+      {
+        "DICTID": "2085",
+        "DICTVALUE": "Жакиянова Я.."
+      },
+      {
+        "DICTID": "2094",
+        "DICTVALUE": "Акишев А.А."
+      },
+      {
+        "DICTID": "2096",
+        "DICTVALUE": "Литвиненко В.С."
+      },
+      {
+        "DICTID": "2108",
+        "DICTVALUE": "Мухамедиева Я.Б. Уволен 27.08.2025"
+      },
+      {
+        "DICTID": "2109",
+        "DICTVALUE": "Магамедова К.Р. Уволен 27.08.2025"
+      },
+      {
+        "DICTID": "2120",
+        "DICTVALUE": "Поршина В.. Уволен 27.08.2025"
+      },
+      {
+        "DICTID": "2111",
+        "DICTVALUE": "Алиханова З.А. Уволен 27.08.2025"
+      }
+    ],
+    "GET_DEPARTMENT_BY_USER|0|1": [
+      {
+        "DICTID": "-1",
+        "DICTVALUE": "Все подразделения"
+      },
+      {
+        "DICTID": "1",
+        "DICTVALUE": "Администрация Главный Офис"
+      },
+      {
+        "DICTID": "5003",
+        "DICTVALUE": "Косметологи Fashion TV Studio"
+      },
+      {
+        "DICTID": "5001",
+        "DICTVALUE": "Операторы колл-центра FTV"
+      },
+      {
+        "DICTID": "5004",
+        "DICTVALUE": "Ресепшен FTV"
+      },
+      {
+        "DICTID": "5005",
+        "DICTVALUE": "Финансовый отдел FTV"
+      },
+      {
+        "DICTID": "5027",
+        "DICTVALUE": "Врачи VL Астана"
+      },
+      {
+        "DICTID": "5028",
+        "DICTVALUE": "Операторы КЦ VL Астана"
+      },
+      {
+        "DICTID": "5030",
+        "DICTVALUE": "Ресепешн VL Астана "
+      },
+      {
+        "DICTID": "5032",
+        "DICTVALUE": "Фин.отдел VL Астана "
+      },
+      {
+        "DICTID": "5026",
+        "DICTVALUE": "Врачи VL Алматы"
+      },
+      {
+        "DICTID": "5029",
+        "DICTVALUE": "Операторы КЦ VL Алматы "
+      },
+      {
+        "DICTID": "5031",
+        "DICTVALUE": "Ресепешн VL Алматы"
+      },
+      {
+        "DICTID": "5033",
+        "DICTVALUE": "Фин.отдел VL Алматы"
+      }
+    ],
+    "GET_COMPANYS_BY_USERID|0|1": [
+      {
+        "DICTID": "1",
+        "DICTVALUE": "Главный офис"
+      },
+      {
+        "DICTID": "2",
+        "DICTVALUE": "FASHION TV STUDIO"
+      },
+      {
+        "DICTID": "7",
+        "DICTVALUE": "VL Астана"
+      },
+      {
+        "DICTID": "8",
+        "DICTVALUE": "VL Алматы "
+      }
+    ]
+  }
+}

@@ -37,3 +37,5 @@ export {
   type SelectFieldOption,
 } from './form/fields';
 export { PlaceholderPage } from './placeholder-page';
+export { MiniCalendar } from './mini-calendar';
+export { PrintPortal } from './print';

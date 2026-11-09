@@ -1,5 +1,58 @@
 {
-  "title": {
-    "workSchedule": "Work schedule"
-  }
+  "title": "Work schedule",
+  "department": "Department",
+  "search": "Find a specialist",
+  "prevMonth": "Previous month",
+  "nextMonth": "Next month",
+  "thisMonth": "This month",
+  "selected_one": "{{count}} cell selected",
+  "selected_other": "{{count}} cells selected",
+  "clear": "Clear",
+  "deselect": "Deselect",
+  "saveTemplate": "Save as template",
+  "applyTemplate": "Apply template",
+  "copyPeriod": "Copy period",
+  "hint": "Select cells with the mouse (Shift — range, Ctrl/Cmd — one by one) or click a name/day, then pick a status.",
+  "appointments": "appointments: {{count}}",
+  "empty": "No specialists",
+  "emptyHint": "Pick another department.",
+  "short": {
+    "off": "off",
+    "vacation": "vac",
+    "sick": "sick",
+    "dayOff": "leave",
+    "absent": "abs"
+  },
+  "time": {
+    "title": "Working hours",
+    "from": "From",
+    "to": "To",
+    "add": "Add interval",
+    "remove": "Remove",
+    "apply": "Apply",
+    "invalid": "End is before start"
+  },
+  "template": {
+    "applyTitle": "Apply template",
+    "template": "Template",
+    "doctors": "To whom",
+    "selectedRows": "Specialists in selection ({{count}})",
+    "allRows": "All specialists on screen ({{count}})",
+    "period": "Period",
+    "from": "From",
+    "to": "To",
+    "apply": "Apply",
+    "saveTitle": "Save template",
+    "name": "Name",
+    "save": "Save",
+    "saveHint": "The template remembers the selected sequence of days."
+  },
+  "copy": {
+    "title": "Copy schedule",
+    "from": "From",
+    "to": "To",
+    "submit": "Copy",
+    "none": "The backend returned no period options."
+  },
+  "done": "Done"
 }

@@ -17,6 +17,9 @@ const FEATURES = [
   'dental',
   'billing',
   'kanban',
+  'item-params',
+  'telephony',
+  'messaging',
 ];
 
 /** Фича может импортировать другую фичу только через её index.ts. */
@@ -39,7 +42,17 @@ const featureBoundaries = FEATURES.map((feature) => ({
 }));
 
 export default tseslint.config(
-  { ignores: ['dist', 'coverage', 'playwright-report', 'test-results', 'public/mockServiceWorker.js', 'mockups'] },
+  {
+    ignores: [
+      'dist',
+      'coverage',
+      'playwright-report',
+      'test-results',
+      'public/mockServiceWorker.js',
+      'mockups',
+      'src/**/vendor/**',
+    ],
+  },
   {
     files: ['**/*.{ts,tsx}'],
     extends: [js.configs.recommended, ...tseslint.configs.strictTypeChecked, ...tseslint.configs.stylisticTypeChecked],

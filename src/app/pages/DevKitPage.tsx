@@ -24,6 +24,7 @@ import {
   IconButton,
   Input,
   KpiTile,
+  MiniCalendar,
   NumberField,
   PageHeader,
   Panel,
@@ -125,6 +126,7 @@ function DemoForm() {
 export function DevKitPage() {
   const [view, setView] = useState<'doctors' | 'offices'>('doctors');
   const [chips, setChips] = useState({ mine: true, free: false });
+  const [day, setDay] = useState(() => new Date());
 
   return (
     <div className="flex flex-col gap-4">
@@ -207,6 +209,12 @@ export function DevKitPage() {
             <Filter />
             Свободные окна
           </FilterChip>
+        </div>
+      </Section>
+
+      <Section title="Мини-календарь">
+        <div className="w-60">
+          <MiniCalendar value={day} onChange={setDay} />
         </div>
       </Section>
 

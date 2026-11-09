@@ -1,8 +1,135 @@
 {
-  "title": {
-    "logbook": "Журнал записей",
-    "offices": "Кабинеты",
-    "training": "Групповые занятия",
-    "doctorDay": "Расписание специалиста"
-  }
+  "today": "Сегодня",
+  "prevDay": "Предыдущий день",
+  "nextDay": "Следующий день",
+  "density": {
+    "label": "Плотность",
+    "compact": "Компакт",
+    "comfort": "Комфорт"
+  },
+  "filter": "Филиал / отделение",
+  "onlyBusy": "Только с записями",
+  "legend": "Статусы",
+  "online": "Онлайн",
+  "blocked": "Нерабочее время",
+  "emptyDay": "В этот день никто не работает",
+  "emptyHint": "Выберите другой день или отделение.",
+  "newAppointment": "Новая запись",
+  "quickCreate": "Быстрая запись",
+  "details": {
+    "title": "Запись",
+    "time": "Время",
+    "doctor": "Специалист",
+    "client": "Клиент",
+    "phone": "Телефон",
+    "services": "Услуги",
+    "comment": "Комментарий",
+    "status": "Статус",
+    "cabinet": "Кабинет",
+    "assistant": "Ассистент",
+    "noServices": "Услуги не указаны"
+  },
+  "create": {
+    "title": "Новая запись",
+    "client": "Клиент",
+    "clientSearch": "ФИО, телефон или номер карты",
+    "clientMin": "Введите минимум 2 символа",
+    "clientNotFound": "Никого не нашли",
+    "doctor": "Специалист",
+    "date": "Дата",
+    "time": "Время",
+    "services": "Услуги",
+    "servicesSearch": "Найти услугу",
+    "servicesNone": "У специалиста нет услуг",
+    "comment": "Комментарий",
+    "submit": "Записать",
+    "success": "Запись создана",
+    "chooseClient": "Выберите клиента",
+    "chooseDoctor": "Выберите специалиста"
+  },
+  "more": "Ещё {{count}}",
+  "doctors_one": "{{count}} специалист",
+  "doctors_few": "{{count}} специалиста",
+  "doctors_many": "{{count}} специалистов",
+  "doctors_other": "{{count}} специалиста",
+  "appointments_one": "{{count}} запись",
+  "appointments_few": "{{count}} записи",
+  "appointments_many": "{{count}} записей",
+  "appointments_other": "{{count}} записи",
+  "training": {
+    "title": "Групповое занятие",
+    "capacity": "до {{count}} чел.",
+    "coach": "Тренер",
+    "empty": "Групповых занятий нет",
+    "emptyHint": "В выбранный день занятий не запланировано."
+  },
+  "actions": {
+    "edit": "Изменить",
+    "copy": "Копировать",
+    "delete": "Удалить",
+    "undo": "Отменить",
+    "moved": "Запись перенесена",
+    "resized": "Длительность изменена",
+    "updated": "Запись изменена",
+    "copied": "Запись скопирована",
+    "deleted": "Запись удалена"
+  },
+  "edit": {
+    "title": "Изменить запись",
+    "date": "Дата",
+    "start": "Начало",
+    "end": "Окончание",
+    "doctor": "Специалист",
+    "comment": "Комментарий",
+    "save": "Сохранить",
+    "endBeforeStart": "Окончание раньше начала"
+  },
+  "copy": {
+    "title": "Копировать запись",
+    "submit": "Копировать"
+  },
+  "remove": {
+    "title": "Удалить запись?",
+    "description": "Запись {{client}} на {{time}} будет удалена.",
+    "reason": "Причина",
+    "submit": "Удалить"
+  },
+  "history": {
+    "title": "Записи клиента",
+    "empty": "Других записей нет",
+    "open": "Открыть в журнале"
+  },
+  "search": {
+    "button": "Найти клиента",
+    "title": "Поиск клиента",
+    "hint": "Телефон, номер карты или ФИО"
+  },
+  "week": {
+    "title": "Расписание специалиста",
+    "prev": "Предыдущая неделя",
+    "next": "Следующая неделя",
+    "thisWeek": "Эта неделя",
+    "back": "Ко всем специалистам",
+    "off": "выходной",
+    "cabinetTitle": "Расписание кабинета",
+    "trainingTitle": "Групповые занятия кабинета"
+  },
+  "offices": {
+    "filter": "Филиал"
+  },
+  "cabinets_one": "{{count}} кабинет",
+  "cabinets_few": "{{count}} кабинета",
+  "cabinets_many": "{{count}} кабинетов",
+  "cabinets_other": "{{count}} кабинета",
+  "trainings_one": "{{count}} занятие",
+  "trainings_few": "{{count}} занятия",
+  "trainings_many": "{{count}} занятий",
+  "trainings_other": "{{count}} занятия",
+  "emptyCabinets": "Кабинетов нет",
+  "print": {
+    "day": "Печать",
+    "slip": "Талон записи",
+    "appointment": "Печать талона"
+  },
+  "chat": "Написать в WhatsApp"
 }

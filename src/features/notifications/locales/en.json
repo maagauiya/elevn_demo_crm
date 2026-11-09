@@ -1,5 +1,10 @@
 {
-  "title": {
-    "feature": "Уведомления, АТС, WhatsApp, SMS. Своих роутов нет — виджеты для AppShell и журнала."
-  }
+  "title": "Notifications",
+  "open": "Open",
+  "empty": "No new notifications",
+  "all": "All",
+  "system": "Elevn news",
+  "count_one": "{{count}} notification",
+  "count_other": "{{count}} notifications",
+  "notFound": "Appointment not found"
 }

@@ -1,8 +1,127 @@
 {
-  "title": {
-    "logbook": "Logbook",
-    "offices": "Offices",
-    "training": "Group sessions",
-    "doctorDay": "Specialist schedule"
-  }
+  "today": "Today",
+  "prevDay": "Previous day",
+  "nextDay": "Next day",
+  "density": {
+    "label": "Density",
+    "compact": "Compact",
+    "comfort": "Comfort"
+  },
+  "filter": "Branch / department",
+  "onlyBusy": "Only with appointments",
+  "legend": "Statuses",
+  "online": "Online",
+  "blocked": "Non-working time",
+  "emptyDay": "Nobody works on this day",
+  "emptyHint": "Pick another day or department.",
+  "newAppointment": "New appointment",
+  "quickCreate": "Quick booking",
+  "details": {
+    "title": "Appointment",
+    "time": "Time",
+    "doctor": "Specialist",
+    "client": "Client",
+    "phone": "Phone",
+    "services": "Services",
+    "comment": "Comment",
+    "status": "Status",
+    "cabinet": "Room",
+    "assistant": "Assistant",
+    "noServices": "No services"
+  },
+  "create": {
+    "title": "New appointment",
+    "client": "Client",
+    "clientSearch": "Name, phone or card number",
+    "clientMin": "Type at least 2 characters",
+    "clientNotFound": "No one found",
+    "doctor": "Specialist",
+    "date": "Date",
+    "time": "Time",
+    "services": "Services",
+    "servicesSearch": "Find a service",
+    "servicesNone": "No services for this specialist",
+    "comment": "Comment",
+    "submit": "Book",
+    "success": "Appointment created",
+    "chooseClient": "Choose a client",
+    "chooseDoctor": "Choose a specialist"
+  },
+  "more": "{{count}} more",
+  "doctors_one": "{{count}} specialist",
+  "doctors_other": "{{count}} specialists",
+  "appointments_one": "{{count}} appointment",
+  "appointments_other": "{{count}} appointments",
+  "training": {
+    "title": "Group session",
+    "capacity": "up to {{count}}",
+    "coach": "Coach",
+    "empty": "No group sessions",
+    "emptyHint": "No sessions are planned for this day."
+  },
+  "actions": {
+    "edit": "Edit",
+    "copy": "Copy",
+    "delete": "Delete",
+    "undo": "Undo",
+    "moved": "Appointment moved",
+    "resized": "Duration changed",
+    "updated": "Appointment updated",
+    "copied": "Appointment copied",
+    "deleted": "Appointment deleted"
+  },
+  "edit": {
+    "title": "Edit appointment",
+    "date": "Date",
+    "start": "Start",
+    "end": "End",
+    "doctor": "Specialist",
+    "comment": "Comment",
+    "save": "Save",
+    "endBeforeStart": "End is before start"
+  },
+  "copy": {
+    "title": "Copy appointment",
+    "submit": "Copy"
+  },
+  "remove": {
+    "title": "Delete appointment?",
+    "description": "The appointment of {{client}} at {{time}} will be deleted.",
+    "reason": "Reason",
+    "submit": "Delete"
+  },
+  "history": {
+    "title": "Client appointments",
+    "empty": "No other appointments",
+    "open": "Open in logbook"
+  },
+  "search": {
+    "button": "Find a client",
+    "title": "Client search",
+    "hint": "Phone, card number or name"
+  },
+  "week": {
+    "title": "Specialist schedule",
+    "prev": "Previous week",
+    "next": "Next week",
+    "thisWeek": "This week",
+    "back": "All specialists",
+    "off": "day off",
+    "cabinetTitle": "Room schedule",
+    "trainingTitle": "Room group sessions"
+  },
+  "offices": {
+    "filter": "Branch"
+  },
+  "cabinets_one": "{{count}} room",
+  "cabinets_other": "{{count}} rooms",
+  "trainings_one": "{{count}} session",
+  "trainings_other": "{{count}} sessions",
+  "emptyCabinets": "No rooms",
+  "print": {
+    "day": "Print",
+    "slip": "Appointment slip",
+    "appointment": "Print slip"
+  },
+  "chat": "Message on WhatsApp"
 }

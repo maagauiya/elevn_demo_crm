@@ -21,7 +21,17 @@ interface SessionState {
  * TODO(фаза 4): договориться с бэкендом о httpOnly-cookie и не хранить sessionId в JS вообще.
  */
 function restore(): Session | null {
-  return readStorage<Session>(KEY, 'local') ?? readStorage<Session>(KEY, 'session');
+  const session = readStorage<Session>(KEY, 'local') ?? readStorage<Session>(KEY, 'session');
+  // Сессии, сохранённые до появления телефонии, — без поля ats.
+  if (session && typeof session.user.ats !== 'object') {
+    (session.user as { ats?: SessionUser['ats'] }).ats = {
+      enabled: false,
+      server: null,
+      password: null,
+      extension: null,
+    };
+  }
+  return session;
 }
 
 const initial = restore();

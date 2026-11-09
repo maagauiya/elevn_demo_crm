@@ -32,5 +32,9 @@
     "pending": "Pending",
     "done": "Completed",
     "cancelled": "Cancelled"
+  },
+  "menu": {
+    "extension": "Extension number",
+    "whatsapp": "WhatsApp"
   }
 }

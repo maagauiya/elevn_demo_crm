@@ -36,12 +36,11 @@ export function SheetContent({
         )}
         {...props}
       >
-        <SheetPrimitive.Title className={cn('text-title', hideHeader && 'sr-only')}>
-          {hideHeader ? title : null}
-        </SheetPrimitive.Title>
-        {hideHeader ? null : (
+        {hideHeader ? (
+          <SheetPrimitive.Title className="sr-only">{title}</SheetPrimitive.Title>
+        ) : (
           <div className="flex items-center justify-between gap-4 border-b border-hairline px-5 py-4">
-            <span className="text-title">{title}</span>
+            <SheetPrimitive.Title className="truncate text-title">{title}</SheetPrimitive.Title>
             <SheetPrimitive.Close asChild>
               <IconButton label={t('actions.close')} size="icon-sm">
                 <X />

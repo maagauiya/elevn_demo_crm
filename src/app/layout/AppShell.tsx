@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Outlet } from 'react-router';
 import { SidebarNav } from '@/features/navigation';
+import { FloatingNotifier, NotificationBell } from '@/features/notifications';
+import { TelephonyCenter } from '@/features/telephony';
 import { IconButton, Sheet, SheetContent } from '@/shared/ui';
 import { UserMenu } from './UserMenu';
 
@@ -11,7 +13,8 @@ function Logo() {
   return (
     <div className="flex items-center gap-2.5 px-5 pt-5 pb-3">
       <div className="flex size-9 items-center justify-center rounded-md bg-accent text-label text-on-accent">E</div>
-      <span className="text-title">{t('appName')}</span>
+      <span className="flex-1 text-title">{t('appName')}</span>
+      <NotificationBell />
     </div>
   );
 }
@@ -37,6 +40,8 @@ export function AppShell() {
 
   return (
     <div className="flex min-h-full">
+      <FloatingNotifier />
+      <TelephonyCenter />
       <aside className="sticky top-0 hidden h-dvh w-62 shrink-0 border-r border-hairline bg-canvas lg:block">
         <SidebarBody />
       </aside>

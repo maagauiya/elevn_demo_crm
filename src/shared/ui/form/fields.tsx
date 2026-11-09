@@ -23,7 +23,7 @@ export function TextField<T extends FieldValues>({
   className,
   type = 'text',
   ...inputProps
-}: BaseFieldProps<T> & InputPassthrough & { type?: 'text' | 'email' | 'password' | 'search' }) {
+}: BaseFieldProps<T> & InputPassthrough & { type?: 'text' | 'email' | 'password' | 'search' | 'time' }) {
   const { field, fieldState } = useController({ control, name });
   return (
     <FormField label={label} hint={hint} error={fieldState.error?.message} required={required} className={className}>

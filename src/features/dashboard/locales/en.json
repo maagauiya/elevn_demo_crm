@@ -1,5 +1,7 @@
 {
-  "title": {
-    "feature": "Движок графиков и дашбордов"
-  }
+  "other": "Other",
+  "noData": "No data for the selected period",
+  "noWidgets": "This dashboard has no widgets",
+  "unknownType": "Widget type {{type}} is not supported yet",
+  "notFound": "Section not found in the menu"
 }

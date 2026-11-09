@@ -1,0 +1,33 @@
+{
+  "incoming": "Incoming call",
+  "outgoing": "Outgoing call",
+  "talking": "Call in progress",
+  "ended": "Call ended",
+  "missed": "Missed call",
+  "unknown": "Client not found",
+  "bonus": "Bonuses",
+  "lastVisit": "Last visit",
+  "nextVisit": "Next visit",
+  "beloved": "Favourite specialists",
+  "comment": "Comment",
+  "none": "none",
+  "book": "Book",
+  "hide": "Hide",
+  "callBack": "Call back",
+  "call": "Call",
+  "status": {
+    "off": "Telephony is off",
+    "connecting": "Connecting to PBX…",
+    "connected": "PBX connected",
+    "disconnected": "PBX disconnected"
+  },
+  "extension": {
+    "menu": "Extension",
+    "title": "Extension number",
+    "label": "Number",
+    "save": "Save",
+    "saved": "Extension saved"
+  },
+  "simulator": "simulator",
+  "saveFailed": "Could not save the call"
+}

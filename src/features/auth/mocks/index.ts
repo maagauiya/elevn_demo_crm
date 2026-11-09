@@ -31,6 +31,10 @@ export const authMocks = defineMocks({
         DPOSITION: 'Администратор',
         DIMAGE: '',
         DEFNAVITEMID: '97',
+        ISATSON: '0',
+        ATSSERVER: '',
+        ATSPASS: '',
+        INTNUMBER: '101',
       },
     ];
   },

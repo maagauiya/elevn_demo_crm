@@ -32,5 +32,9 @@
     "pending": "Ожидание",
     "done": "Завершена",
     "cancelled": "Отменена"
+  },
+  "menu": {
+    "extension": "Внутренний номер",
+    "whatsapp": "WhatsApp"
   }
 }
