@@ -36,6 +36,30 @@ export function defineMocks(methods: MockMethods): MockMethods {
   return methods;
 }
 
+/** Один метод нужен нескольким фичам (у каждой свой снимок): отвечает первый хендлер с непустым ответом. */
+export function firstNonEmpty(...handlers: (MockMethod | undefined)[]): MockMethod {
+  return async (request) => {
+    for (const handler of handlers) {
+      const rows = handler ? await handler(request) : [];
+      if (rows.length) return rows;
+    }
+    return [];
+  };
+}
+
+/** Набор без методов, которыми владеет другая фича. */
+export function omitMocks(methods: MockMethods, names: readonly string[]): MockMethods {
+  return Object.fromEntries(Object.entries(methods).filter(([name]) => !names.includes(name)));
+}
+
+/** Имена методов, которые зарегистрированы больше чем в одном наборе. */
+export function duplicateMethods(groups: MockMethods[]): string[] {
+  const seen = new Set<string>();
+  const dups = new Set<string>();
+  for (const group of groups) for (const name of Object.keys(group)) (seen.has(name) ? dups : seen).add(name);
+  return [...dups];
+}
+
 /** Собирает хендлеры фич в один MSW-хендлер, который диспатчит по MethodName. */
 export function createApiHandler(...groups: MockMethods[]) {
   const methods: MockMethods = {};

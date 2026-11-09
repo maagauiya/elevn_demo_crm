@@ -26,6 +26,21 @@
     "required": "Required"
   },
   "language": "Language",
+  "export": {
+    "button": "Export",
+    "title": "Export table",
+    "description": "Exports the visible rows with current filters and sorting applied.",
+    "format": "Format",
+    "formatExcel": "Excel",
+    "formatCsv": "CSV",
+    "download": "Download",
+    "downloading": "Preparing file…",
+    "rowsCount": "Rows: {{count}}",
+    "previewNote": "Showing first {{count}} of {{total}} rows",
+    "empty": "Nothing to export",
+    "success": "File downloaded",
+    "error": "Couldn't build the file"
+  },
   "status": {
     "confirmed": "Confirmed",
     "in-progress": "In progress",

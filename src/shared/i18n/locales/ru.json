@@ -26,6 +26,21 @@
     "required": "Обязательное поле"
   },
   "language": "Язык",
+  "export": {
+    "button": "Экспорт",
+    "title": "Экспорт таблицы",
+    "description": "Выгружаются видимые строки с учётом текущих фильтров и сортировки.",
+    "format": "Формат",
+    "formatExcel": "Excel",
+    "formatCsv": "CSV",
+    "download": "Скачать",
+    "downloading": "Готовим файл…",
+    "rowsCount": "Строк: {{count}}",
+    "previewNote": "Показаны первые {{count}} строк из {{total}}",
+    "empty": "Нечего экспортировать",
+    "success": "Файл скачан",
+    "error": "Не удалось собрать файл"
+  },
   "status": {
     "confirmed": "Подтверждена",
     "in-progress": "В процессе",

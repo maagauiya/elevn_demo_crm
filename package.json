@@ -19,7 +19,8 @@
     "test:watch": "vitest",
     "e2e": "playwright test",
     "metadata:sync": "node scripts/sync-metadata.ts",
-    "api:describe": "node scripts/describe-method.ts"
+    "api:describe": "node scripts/describe-method.ts",
+    "crawl:handbook": "node scripts/crawl-handbook.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "7.0.3",
@@ -29,6 +30,7 @@
     "class-variance-authority": "0.7.1",
     "clsx": "2.1.1",
     "date-fns": "4.4.0",
+    "exceljs": "4.4.0",
     "i18next": "26.7.1",
     "lucide-react": "1.69.0",
     "radix-ui": "1.8.1",

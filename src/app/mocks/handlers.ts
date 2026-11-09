@@ -12,13 +12,27 @@ import { messagingMocks } from '@/features/messaging/mocks';
 import { notificationsMocks } from '@/features/notifications/mocks';
 import { telephonyMocks } from '@/features/telephony/mocks';
 import { workScheduleMocks } from '@/features/work-schedule/mocks';
-import { createApiHandler } from '@/shared/mocks';
+import { createApiHandler, defineMocks, firstNonEmpty, type MockMethods, omitMocks } from '@/shared/mocks';
 
-/** Все моки приложения. Новая фича → одна строка здесь (уже добавлены все из плана). */
-export const apiHandler = createApiHandler(
+/**
+ * Методы, нужные обоим трекам. Параметры экранов: снимок item-params (дашборды, графики, спец-экраны)
+ * дополняется снимком handbook (разделы-таблицы).
+ */
+const SHARED = ['WAGetItemParams', 'WAGetItemParamDict'] as const;
+const sharedMocks = defineMocks({
+  WAGetItemParams: firstNonEmpty(itemParamsMocks.WAGetItemParams, handbookMocks.WAGetItemParams),
+  WAGetItemParamDict: firstNonEmpty(itemParamsMocks.WAGetItemParamDict, handbookMocks.WAGetItemParamDict),
+});
+
+/**
+ * Все наборы моков. Новая фича → одна строка здесь. Один метод — один владелец
+ * (проверяет handlers.test.ts); общие методы — в sharedMocks.
+ */
+export const mockGroups: MockMethods[] = [
   authMocks,
   navigationMocks,
-  itemParamsMocks,
+  sharedMocks,
+  omitMocks(itemParamsMocks, SHARED),
   // Трек A
   logbookMocks,
   dashboardMocks,
@@ -26,10 +40,12 @@ export const apiHandler = createApiHandler(
   notificationsMocks,
   telephonyMocks,
   messagingMocks,
-  // Трек B
-  handbookMocks,
+  // Трек B. WAGetMSGInstanceList — данные раздела-таблицы, но владелец метода — messaging.
+  omitMocks(handbookMocks, [...SHARED, 'WAGetMSGInstanceList']),
   kanbanMocks,
   multiselectMocks,
   dentalMocks,
   billingMocks,
-);
+];
+
+export const apiHandler = createApiHandler(...mockGroups);

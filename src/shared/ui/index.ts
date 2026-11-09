@@ -39,3 +39,4 @@ export {
 export { PlaceholderPage } from './placeholder-page';
 export { MiniCalendar } from './mini-calendar';
 export { PrintPortal } from './print';
+export { ExportDialog } from './export-dialog';
