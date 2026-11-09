@@ -1,5 +1,31 @@
 {
   "title": {
-    "feature": "Движок универсальных таблиц"
+    "feature": "Universal table engine"
+  },
+  "params": {
+    "apply": "Apply"
+  },
+  "table": {
+    "search": "Search table",
+    "filter": "Filter",
+    "pin": "Pin column",
+    "unpin": "Unpin column",
+    "resizeColumn": "Resize column"
+  },
+  "summary": {
+    "max": "Max",
+    "min": "Min",
+    "sum": "Sum",
+    "count": "Count",
+    "avg": "Average",
+    "countUniq": "Unique"
+  },
+  "editor": {
+    "edit": "Edit",
+    "add": "Add",
+    "addTitle": "New record",
+    "editTitle": "Edit record",
+    "save": "Save",
+    "saved": "Saved"
   }
 }

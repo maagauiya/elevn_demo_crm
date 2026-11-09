@@ -7,8 +7,11 @@
  *    MSW-моки отдают ровно то, что отдаёт бэкенд, — e2e и dev:mocks совпадают с реальностью.
  * 2. Генерирует реестр разделов docs/sections.md: каждый пункт меню → движок → маршрут → трек.
  *    Колонку «Статус» скрипт сохраняет между запусками — её ведут руками.
+ * 3. Снимает метаданные движка таблиц (WAGetItemMeta + WAGetItemParams) для каждого раздела
+ *    типа table → src/features/handbook/mocks/fixtures/table-meta.json.
  *
- * Берём только метаданные (структуру меню). Строки данных в фикстуры не пишем.
+ * Берём только метаданные (структуру меню и колонок). Строки данных в фикстуры не пишем —
+ * мок-хендлер handbook генерирует их faker-ом по типам колонок (см. features/handbook/mocks).
  */
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { ENGINE_TRACK, engineOf, FOLDER_TYPE, itemPath } from '../src/features/navigation/model/item-types.ts';
@@ -19,8 +22,26 @@ const PASSWORD = process.env.ELEVN_PASSWORD ?? '123456789';
 
 const NAV_FIXTURE = 'src/features/navigation/mocks/fixtures/nav.json';
 const REGISTRY = 'docs/sections.md';
+const TABLE_META_FIXTURE = 'src/features/handbook/mocks/fixtures/table-meta.json';
+const EDITOR_FIELDS_FIXTURE = 'src/features/handbook/mocks/fixtures/editor-fields.json';
+/** Сколько разделов опрашиваем параллельно — 178 штук, бэкенд это не DDoS-атака, но и не нужно бить залпом. */
+const CONCURRENCY = 8;
 
 type Row = Record<string, string>;
+
+async function mapWithConcurrency<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
+  const results: R[] = new Array<R>(items.length);
+  let next = 0;
+  async function worker() {
+    for (;;) {
+      const i = next++;
+      if (i >= items.length) return;
+      results[i] = await fn(items[i] as T);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
+  return results;
+}
 
 async function call(method: string, params: Record<string, unknown>): Promise<Row[]> {
   const res = await fetch(API_URL, {
@@ -123,6 +144,36 @@ ${lines.join('\n')}
 `;
 }
 
+interface TableMetaEntry {
+  methodName: string;
+  meta: Row[];
+  params: Row[];
+}
+
+/** Для каждого раздела движка table снимает WAGetItemMeta + WAGetItemParams. Данных (строк) не берёт. */
+async function syncTableMeta(rows: Row[], base: Record<string, unknown>): Promise<Record<string, TableMetaEntry>> {
+  const items = rows.filter((r) => engineOf(Number(r.RECTYPE)) === 'table' && r.METHODNAME);
+  const entries = await mapWithConcurrency(items, CONCURRENCY, async (row) => {
+    const itemId = row.RECID;
+    const [meta, params] = await Promise.all([
+      call('WAGetItemMeta', { ...base, WAItemId: itemId, LangId: '0' }),
+      call('WAGetItemParams', { UserId: base.UserId, WAItemId: itemId, LangId: '0' }),
+    ]);
+    return [itemId, { methodName: row.METHODNAME, meta, params }] as const;
+  });
+  return Object.fromEntries(entries) as Record<string, TableMetaEntry>;
+}
+
+/** Для каждой уникальной EDITORTABLE снимает поля редактора (WAGetItemEditor). */
+async function syncEditorFields(rows: Row[], base: Record<string, unknown>): Promise<Record<string, Row[]>> {
+  const tables = [...new Set(rows.map((r) => r.EDITORTABLE).filter((t): t is string => !!t))];
+  const entries = await mapWithConcurrency(tables, CONCURRENCY, async (editorTable) => {
+    const fields = await call('WAGetItemEditor', { ...base, EditorTable: editorTable, LangId: '0' });
+    return [editorTable, fields] as const;
+  });
+  return Object.fromEntries(entries);
+}
+
 async function main() {
   const [login] = await call('WAEmpLogin', { ULogin: LOGIN, UPassword: PASSWORD, SessionUUID: 'metadata-sync' });
   if (login?.RESULT !== '0') throw new Error(`Логин не удался: ${login?.RESULTDESCRIPTION ?? 'нет ответа'}`);
@@ -136,6 +187,14 @@ async function main() {
   writeFileSync(REGISTRY, buildRegistry(ru));
   console.log(`Меню: ${ru.length} строк → ${NAV_FIXTURE}`);
   console.log(`Реестр разделов → ${REGISTRY}`);
+
+  const tableMeta = await syncTableMeta(ru, base);
+  writeFileSync(TABLE_META_FIXTURE, `${JSON.stringify(tableMeta, null, 2)}\n`);
+  console.log(`Метаданные таблиц: ${Object.keys(tableMeta).length} разделов → ${TABLE_META_FIXTURE}`);
+
+  const editorFields = await syncEditorFields(ru, base);
+  writeFileSync(EDITOR_FIELDS_FIXTURE, `${JSON.stringify(editorFields, null, 2)}\n`);
+  console.log(`Поля редактора: ${Object.keys(editorFields).length} таблиц → ${EDITOR_FIELDS_FIXTURE}`);
 }
 
 main().catch((error: unknown) => {
